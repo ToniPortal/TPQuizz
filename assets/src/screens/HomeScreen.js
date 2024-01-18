@@ -14,7 +14,7 @@ const HomeScreen = ({ navigation }) => {
       {/* Bouton pour démarrer un quiz */}
       <TouchableOpacity 
         style={styles.startButton} 
-        onPress={() => navigation.navigate('QuizSelection')}  // Navigation vers l'écran de sélection de quiz
+        onPress={() => navigation.navigate('StackSelection')}  // Navigation vers l'écran de sélection de quiz
       >
         <View style={{ flexDirection: 'row', alignItems: 'center' }}>
           {/* Icône "play" */}

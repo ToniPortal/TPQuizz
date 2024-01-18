@@ -5,20 +5,45 @@ import QuizSelectionScreen from './screens/QuizSelectionScreen';
 import QuizScreen from './screens/QuizScreen';
 import ResultScreen from './screens/ResultScreen';
 import AllScoresScreen from './screens/AllScoresScreen/index.js';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { Ionicons } from '@expo/vector-icons'; // Assurez-vous d'installer cette bibliothèque d'icônes
 
 const Stack = createStackNavigator();
+const Tab = createBottomTabNavigator();
 
-const AppNavigator = () => {
+function StackAppNavigator() {
   return (
-    <Stack.Navigator initialRouteName="Home">
-      <Stack.Screen name="Home" component={HomeScreen} />
+    <Stack.Navigator >
       <Stack.Screen name="QuizSelection" component={QuizSelectionScreen} />
       <Stack.Screen name="Quiz" component={QuizScreen} />
       <Stack.Screen name="Result" component={ResultScreen} />
-      <Stack.Screen name="AllScores" component={AllScoresScreen} />
-
     </Stack.Navigator>
   );
 };
 
-export default AppNavigator;
+export function BottomTab() {
+
+  return (
+    <Tab.Navigator initialRouteName="Home">
+      <Tab.Screen name="Home" component={HomeScreen} options={{
+        tabBarIcon: ({ color, size }) => (
+          <Ionicons name="ios-home" color={color} size={size} />
+        ),
+      }} />
+      <Tab.Screen name="StackSelection" component={StackAppNavigator} options={{
+        headerShown: false,
+        tabBarLabel: "QuizSelection",
+        tabBarIcon: ({ color, size }) => (
+          <Ionicons name="help-outline" color={color} size={size} />
+        ),
+      }} />
+      <Tab.Screen name="AllScores" component={AllScoresScreen} options={{
+        tabBarIcon: ({ color, size }) => (
+          <Ionicons name="receipt-outline" color={color} size={size} />
+        ),
+      }} />
+    </Tab.Navigator>
+  );
+}
+
+export default BottomTab;

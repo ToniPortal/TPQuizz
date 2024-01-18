@@ -75,27 +75,27 @@ const famousSongsQuiz = {
   feedback: {
     perfect: {
       comment: "Vous êtes une véritable Jukebox des hits ! 🎶",
-      image: "https://media.tenor.com/images/your-perfect-score-gif"
+      image: "https://media1.giphy.com/media/l49K0vslhpsPpuOuQ/giphy.gif"
     },
     excellent: {
       comment: "Vous êtes le DJ de la soirée ! 🎧",
-      image: "https://media.tenor.com/images/excellent-score-gif"
+      image: "https://i.pinimg.com/originals/e6/80/fc/e680fc8d1708ee1a5f9358ecb11b6e9c.gif"
     },
     veryGood: {
       comment: "Vous connaissez vos classiques ! 📀",
-      image: "https://media.tenor.com/images/very-good-score-gif"
+      image: "https://media2.giphy.com/media/4oMoIbIQrvCjm/200w.gif?cid=6c09b9520fmvk3oqrtxzc7gx5h4djjslibw2kzdw2oqqn1wh&ep=v1_gifs_search&rid=200w.gif&ct=g"
     },
     good: {
       comment: "Pas mal, mais il y a encore des tubes à découvrir ! 🎵",
-      image: "https://media.tenor.com/images/good-score-gif"
+      image: "https://66.media.tumblr.com/b61695d3eddaddd72a9fd0d743ce29ac/tumblr_o7gcmdb4oT1utfu2qo1_500.gif"
     },
     average: {
       comment: "Il est temps de mettre à jour votre playlist ! 🎼",
-      image: "https://media.tenor.com/images/average-score-gif"
+      image: "https://media1.giphy.com/media/3XNIOAJ6HSQUw/giphy.gif?cid=6c09b952o5crv0d2za4lg7ar276t0m4ktryhwxxj0bo2b48m&ep=v1_gifs_search&rid=giphy.gif&ct=g"
     },
     poor: {
       comment: "Vous avez besoin d'un cours de culture musicale ! 🎙️",
-      image: "https://media.tenor.com/images/poor-score-gif"
+      image: "https://media4.giphy.com/media/H5qiH1k07CdTnDKRdc/giphy.gif?cid=6c09b952r6sqhsf2ro3u65jo81hg9etyo9vgk9r1zjkaiz6i&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g"
     }
   },
 };

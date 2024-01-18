@@ -91,11 +91,11 @@ const michaelJacksonQuiz = {
     },
     average: {
       comment: "Il est temps de réviser les albums de MJ! 🎵",
-      image: "https://i.pinimg.com/originals/44/ae/f0/44aef0e27f645cb7adebf21dfa41aeb5.gif"
+      image: "https://media1.tenor.com/m/xiLXygPVVJ4AAAAd/dam-dak.gif"
     },
     poor: {
       comment: "Hee-hee! Vous avez besoin de pratiquer! 🕺",
-      image: "https://i.makeagif.com/media/5-29-2015/ieEayC.gif"
+      image: "https://media1.tenor.com/m/22Z1x1Z54AMAAAAC/cartoons-fox.gif"
     }
   },
 };
