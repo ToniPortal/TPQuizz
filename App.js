@@ -4,6 +4,8 @@ import { NavigationContainer } from '@react-navigation/native';  // Conteneur de
 import AppNavigator from './assets/src/Navigator';  // Importation du gestionnaire de navigation personnalisé
 import BottomTab from './assets/src/Navigator';
 
+import firebaseApp from "./assets/src/lib/FirebaseConfig";  // Importez l'application Firebase initialisée
+
 // Définition du composant App, le point d'entrée de l'application
 const App = () => {
   return (
